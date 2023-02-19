@@ -1,14 +1,16 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
+
 
 /**
  * main - Entry point
- * Remain: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 
 int main(void)
+
 
 {
 	int d, p, q;
@@ -18,9 +20,10 @@ int main(void)
 
 	for (p = d + 1; p <= '9'; p++)
 	{
-
+	
 	for (q = p + 1; q <= '9'; q++)
 	{
+
 	if ((p != d) != q)
 	{
 	putchar(d);
@@ -33,7 +36,8 @@ int main(void)
 	}
 	}
 	}
-	}
-	putchar('\n');
+        }
+        putchar('\n');
 	return (0);
 }
+
