@@ -2,10 +2,14 @@
 
 
 
+
+
+
 #include "main.h"
 
 /**
 * print_chessboard - Entry point
+* Description: 'Chess is mental torture'
 * @: array
 * Return: Always 0 (Success)
 */
